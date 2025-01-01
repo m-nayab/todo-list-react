@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+React To-Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple to-do list application built using React. It allows users to:
 
-## Available Scripts
+Add new tasks.
+Edit tasks .
+Delete tasks.
+Clear all completed tasks.
+Technologies Used:
 
-In the project directory, you can run:
+React: For building the user interface and managing the application's state.
+Create React App (CRA): For setting up the project quickly and easily.
+JavaScript (including JSX): For writing the application's logic and rendering components.
+CSS (or CSS-in-JS): For styling the components.
+Installation:
 
-### `npm start`
+Clone the repository:
+Bash
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/m-nayab/todo-list-react.git
+Navigate to the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Bash
 
-### `npm test`
+cd <project-name> 
+Install dependencies:
+Bash
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install 
+or
+Bash
 
-### `npm run build`
+yarn install
+Running the application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bash
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start 
+or
+Bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+yarn start
+This will start the development server and open the application in your default web browser.   
 
-### `npm run eject`
+Project Structure:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/:   
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+App.js: The main component of the application.
+components/:
+Task.js: Component for rendering individual tasks.
+TaskList.js: Component for rendering the list of tasks.
+TaskForm.js: Component for adding new tasks.
+styles/:
+index.css: Global styles for the application.
+index.js: The entry point of the application.
+public/:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+index.html: The HTML file that serves as the container for the React application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Hosted Link: https://m-nayab.github.io/todo-list-react/
